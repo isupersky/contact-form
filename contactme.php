@@ -1,6 +1,9 @@
-<?php
-require_once 'header.php';
-?><br><br>
+<html>
+	<head>
+		<title>contact page</title>
+	</head>
+	<body>	
+<br><br>
 <div class ="formm">
 <form method="post" action="send_form_email.php">
 <div class="row half">
@@ -79,8 +82,5 @@ textarea {
     resize			: none;
 }
 </style>
-<?php
-include_once 'frss.php';
-include_once "bottom.php";
-?>
-
+</body>
+</html>
